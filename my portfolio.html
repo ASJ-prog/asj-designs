@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ASJ DESIGNS — Graphic Designer</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body { margin:0; font-family:'Segoe UI', sans-serif; color:#3b0a01; }
+    header, section, footer { max-width:1000px; margin:auto; padding:60px 20px; }
+    header { background:#ff7300; color:#ffffff; text-align:center; padding-top:100px; padding-bottom:100px; }
+    header h1 { font-size:3rem; margin:0; }
+    header p { font-size:1.2rem; margin-top:10px; }
+    #about, #skills, #portfolio, #contact { background:#fff; margin-top:40px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    #about h2, #skills h2, #portfolio h2, #contact h2 { margin-top:0; }
+    .skills-list { display:flex; flex-wrap:wrap; gap:10px; list-style:none; padding:0; }
+    .skills-list li { background:#f4f4f4; padding:10px 15px; border-radius:4px; font-size:0.9rem; }
+    .portfolio { display:flex; flex-wrap:wrap; gap:10px; }
+    .portfolio img { width:calc(33.333% - 10px); border-radius:4px; }
+    @media(max-width:800px){ .portfolio img { width:calc(50% - 10px); } }
+    @media(max-width:500px){ .portfolio img { width:100%; } }
+    form input, textarea { width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:4px; }
+    form button { padding:12px 20px; background:#222; color:#fff; border:none; border-radius:4px; cursor:pointer; }
+    footer { background:#f4f4f4; text-align:center; padding:20px; margin-top:40px; }
+    footer a { margin:0 8px; color:#333; text-decoration:none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ASJ DESIGNS</h1>
+  <p>Graphic Designer • Brand Identity • Illustration • Print & Digital Design</p>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I’m a professional graphic designer with over 6 years of experience. I specialize in branding, illustration, and visual storytelling. My goal is to help brands stand out through creative, meaningful design.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills & Tools</h2>
+  <ul class="skills-list">
+    <li>Adobe Illustrator</li>
+    <li>Adobe Photoshop</li>
+    <li>Figma</li>
+    <li>Brand Identity</li>
+    <li>Print Design</li>
+    <li>Digital Illustration</li>
+  </ul>
+</section>
+
+<section id="portfolio">
+  <h2>Selected Works</h2>
+  <div class="portfolio">
+    <!-- Replace src with your uploaded designs -->
+    <img src="https://imgur.com/a/pyeMRdC" alt="Design 1">
+    <img src="https://imgur.com/a/tb7ph7U" alt="Design 2">
+    <img src="https://imgur.com/a/OtbVR5j" alt="Design 3">
+    <img src="https://imgur.com/a/IzlM0ND" alt="Design 4">
+    <img src="https://imgur.com/a/6R2u9I5" alt="Design 5">
+    <img src="https://imgur.com/a/gFocOd5" alt="Design 6">
+    <img src="https://imgur.com/a/JN2Mkn5" alt="Design 7">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <form action="/contact" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Let’s create something great together..." required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 ASJ DESIGNS — Connect:
+  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+  <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+</footer>
+
+</body>
+</html>
